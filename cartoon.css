@@ -1,0 +1,117 @@
+.nav-bar {
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cartoon_Network_logo_%281992-2010%29.svg/1200px-Cartoon_Network_logo_%281992-2010%29.svg.png?20220413190030'); */
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+
+header {
+	background:linear-gradient(to right, white,orange);
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: darkred;
+	background-color: greenyellow;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.nav-link {
+	color: black;
+  }
+  
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+#border-about {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: linear-gradient(to right, white,grey);
+    padding: 10px 20px;
+    color: auto;
+  }
+
+
+.border-p{
+	border: 2px solid #000;
+    border-radius: 10px;
+    background: linear-gradient(to right, white,grey);
+    padding: 10px 20px;
+    color: auto;
+
+}
+  
+
+section {
+	margin-bottom: 40px;
+}
+
+section h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.cartoon-gallery img {
+	max-width: 300px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.video-gallery video {
+	max-width: 300px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.bgcolor{
+	background: linear-gradient(to right,red,white,grey);
+
+
+}
+
+.hr {
+	border: none;
+	border-top: 3px solid black;
+	height: 0;
+	margin: 1em 0; 
+  }
+  
+  .playful-font {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 3rem;
+	color: black;
+  }
+
+  #centre{
+
+	
+		text-align: center;
+  }

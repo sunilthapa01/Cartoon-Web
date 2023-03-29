@@ -1,0 +1,34 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/* This section for photos */
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 3rem;
+    text-align: center;
+	color: whitesmoke;
+  }
+  
+
+#bgcolor {
+
+    
+	background: linear-gradient(to right,black, red,blue,white);
+
+
+
+}
